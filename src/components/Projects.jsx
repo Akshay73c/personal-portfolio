@@ -5,15 +5,15 @@ const Projects = () => {
       className="w-full m-auto flex flex-col items-center text-center gap-8"
     >
       <h2 className="text-4xl font-semibold">Projects</h2>
-      <div className="project-subsection w-full mb-16">
+      <div className="project-subsection w-full mb-16 grid">
         {/* <h3 className="mb-8 text-2xl font-medium underline">Software</h3> */}
-        <div className="swiper card-swiper">
+        <div className="swiper card-swiper w-full !overflow-scroll hidden">
           <div className="swiper-wrapper">
-            <div className="swiper-slide">
+            <div className="swiper-slide !w-[272px] h-[375.75px]">
               <a
                 href="https://github.com/Akshay73c/CivicConnect"
                 target="_blank"
-                className="project-box flex flex-col text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg"
+                className="project-box text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg block overflow-y-auto scale-90 hover:scale-100 w-72 h-96"
               >
                 <picture>
                   <img
@@ -35,11 +35,11 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className="swiper-slide">
+            <div className="swiper-slide !w-[272px] h-[375.75px]">
               <a
-                href="https://github.com/Akshay73c/Receipe-search-app"
+                href="https://receipe-search-smoky.vercel.app/"
                 target="_blank"
-                className="project-box flex flex-col text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg"
+                className="project-box text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg block overflow-y-auto scale-90 hover:scale-100 w-72 h-96"
               >
                 <picture>
                   <img
@@ -63,11 +63,11 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className="swiper-slide">
+            <div className="swiper-slide !w-[272px] h-[375.75px]">
               <a
                 href="https://github.com/Akshay73c/medium-clone"
                 target="_blank"
-                className="project-box flex flex-col text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg"
+                className="project-box text-center border border-[#d7dbd8] rounded-xl p-4 bg-[#f9f9f9] shadow-lg block overflow-y-auto scale-90 hover:scale-100 w-72 h-96"
               >
                 <picture>
                   <img

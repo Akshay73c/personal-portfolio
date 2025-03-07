@@ -55,7 +55,7 @@ const Skills = () => {
 const IconCard = ({ iconClass }) => (
   <div className="flex flex-col items-center w-24 h-24 justify-center">
     <i
-      className={`${iconClass} md:text-5xl text-7xl transition-all duration-300 text-[#588061] hover:text-[#a5d6b0] hover:scale-110`}
+      className={`${iconClass} md:text-6xl text-5xl transition-all duration-300 text-[#588061] hover:text-[#a5d6b0] hover:scale-110`}
     ></i>
   </div>
 );

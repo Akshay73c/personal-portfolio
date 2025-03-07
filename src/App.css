@@ -1,140 +1,14 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   padding-bottom: 0%;
   text-align: center;
 }
 
-/* Cards Swiper */
-.swiper {
-  width: 100%;
-  overflow-x: scroll !important;
-}
-
-.swiper-slide {
-  width: 272px !important;
-  height: 375.75px;
-}
-
-.swiper-slide > a {
-  display: block;
-  transform: scale(0.9);
-  width: 272px;
-  height: 375.75px;
-  overflow-y: auto;
-}
-
+/* Figure out how to do this in tailwind*/
 .swiper-slide > a::-webkit-scrollbar {
   display: none;
 }
-
-@media (min-width: 1690px) {
-  .swiper-wrapper {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 992px) {
-  nav .left a {
-    font-size: 1.25rem;
-  }
-
-  nav .right a {
-    font-size: 1rem;
-    margin: 0 0.5rem;
-  }
-
-  #about-section .headshot {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  #projects-section .project-box {
-    flex: 0 0 14rem; /* Adjust width for smaller screens */
-  }
-
-  #skills-section i {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  nav .left a {
-    font-size: 1.25rem;
-  }
-
-  nav .right a {
-    font-size: 1.1rem;
-    margin: 0 0.375rem;
-  }
-
-  #about-section .headshot {
-    width: 16rem;
-    height: 16rem;
-  }
-
-  #projects-section .project-box {
-    flex: 0 0 14rem;
-  }
-
-  #skills-section i {
-    font-size: 2rem;
-  }
-
-  #skills-section .skills-container {
-    gap: 1.25rem;
-  }
-}
-
-@media (max-width: 576px) {
-  nav {
-    padding: 0 1rem;
-  }
-
-  nav .left a {
-    font-size: 1.1rem;
-  }
-
-  nav .right a {
-    font-size: 0.8rem;
-    margin: 0 0.25rem;
-  }
-
-  #about-section .social-links {
-    font-size: 1.75rem;
-  }
-
-  #about-section h2 {
-    font-size: 2.4rem;
-  }
-
-  #about-section .headshot {
-    width: 12rem;
-    height: 12rem;
-  }
-
-  #projects-section .project-box {
-    flex: 0 0 14rem;
-  }
-
-  #skills-section i {
-    font-size: 1.5rem;
-  }
-
-  #skills-section .skills-container {
-    gap: 1rem;
-  }
-
-  section {
-    padding: 6rem 1rem; /* Adjust padding for smaller screens */
-  }
-
-  #projects-section {
-    padding: 6rem 1rem; /* Adjust padding for smaller screens */
-  }
-
-  #leave-message-section {
-    padding: 3rem 1rem; /* Adjust padding for smaller screens */
-  }
+.swiper::-webkit-scrollbar {
+  display: none;
 }
