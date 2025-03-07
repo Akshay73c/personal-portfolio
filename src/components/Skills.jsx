@@ -31,7 +31,7 @@ const Skills = () => {
   return (
     <div
       id="skills-section"
-      className="flex flex-col items-center bg-[#f9f9f9] p-8 w-full"
+      className="flex flex-col items-center bg-[#f9f9f9] p-8 w-screen"
     >
       <h2 className="mb-8 text-4xl font-semibold">Skills</h2>
       <div className="w-full max-w-6xl px-4">

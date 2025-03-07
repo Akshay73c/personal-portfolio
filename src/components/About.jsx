@@ -12,11 +12,11 @@ const About = () => {
           className="w-full h-full object-cover rounded-full transition-transform duration-400 ease-in-out hover:scale-125"
         />
       </div>
-      <div className="">
+      <div className="md:w-4xl">
         <p>
-          Hey, I'm a software dev who's incredibly excited about thee tech
+          Heyy, I'm a software dev who's incredibly excited about the tech
           world. With a B.Tech degree, I'm well equipped with a technical
-          skillset and an eagerness to experiment! I am always looking for new
+          skillset and an eagerness to experiment! I'm always looking for new
           opportunities to learn and grow as a developer.
         </p>
         <br />
